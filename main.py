@@ -7,7 +7,6 @@ from prompt_toolkit.styles import Style
 from prompt_toolkit.shortcuts import message_dialog
 
 from copy import deepcopy
-import tableprint
 
 from typing import List
 import json
