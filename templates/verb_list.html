@@ -1,0 +1,22 @@
+{% filter replace('\n', '') %}
+    <table border="1px">
+        <thead>
+            <tr>
+                {% for header in headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in datas %}
+                <tr>
+                    {% for elem in data %}
+                        <td>
+                            {{ elem }}
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endfilter %}
