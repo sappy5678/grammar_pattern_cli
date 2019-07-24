@@ -12,7 +12,7 @@ It can search word and show describe that writed in the book.
     ```
 4. type `python main.py` to run program.
 
-## Microsofr Windows user
+## Microsoft Windows user
 1. install [msys2](https://www.msys2.org)
 2. run msys2 and use below command to install packages
     ```
