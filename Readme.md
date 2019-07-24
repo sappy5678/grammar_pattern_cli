@@ -53,12 +53,14 @@ This project allows users to search verbs in two ways:
         ```
     - Output:
         V -ing
+        
         |   | Verb group | -ing clause |
         |---|---|---|
         | Subject | Verb | Adjunct |
         | I | 'd die | feeling guilty. |
         
         Phrasal verbs: V P -ing
+        
         || Verb group | Partical | -ing clause |
         |---|---|---|---|
         | Subject | Verb || Adjunct |
