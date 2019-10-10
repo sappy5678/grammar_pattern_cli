@@ -35,7 +35,7 @@ def print_html(html):
     with open('tmp.html', 'w') as f:
         f.write(html)
     import subprocess
-    full = subprocess.run(["w3m", "-dump","-cols" ,f"{WIDTH}",'tmp.html'], stdout=subprocess.PIPE)
+    full = subprocess.run(["w3m", "-dump","-cols" ,f'{WIDTH}','tmp.html'], stdout=subprocess.PIPE)
 
     # with open('tmp.txt') as f:
     #     full = f.read()

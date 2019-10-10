@@ -10,3 +10,6 @@ It can search word and show describe that writed in the book.
     pip install prompt_toolkit jinja2
     ```
 4. type `python main.py` to run program.
+
+# Docker run
+docker run --restart=always -d  -p 5101:5000  $(DOCKER) 
